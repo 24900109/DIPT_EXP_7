@@ -49,7 +49,7 @@ import matplotlib.pyplot as plt
 ###  Step 2: Read the Image
 
 ```python
-image = cv2.imread("lan_img1.jpg")
+image = cv2.imread("tulip.jpg")
 
 if image is None:
     raise FileNotFoundError("Could not load 'lan_img1.jpg'. Check the file path.")
